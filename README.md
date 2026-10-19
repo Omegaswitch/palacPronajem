@@ -1,6 +1,6 @@
 # velkoprevorskypalac.eu
 
-Rental of the rooms and garden of the Grand Prior's Palace (Velkopřevorský palác) in Prague's Lesser Town, the seat of the Czech Grand Priory of the Order of Malta.
+Rental of the rooms and garden of the Grand Priory Palace (Velkopřevorský palác) in Prague's Lesser Town, the seat of the Czech Grand Priory of the Order of Malta.
 The site is in Czech, English, French, Italian and German.
 It is built with the same engine and Grand Magistry frame as maltezskyrad.cz and lurdy.eu: a static generator in plain Python (standard library only), hosted on Vercel.
 
