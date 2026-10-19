@@ -252,19 +252,20 @@ def page(key, lang, inner, lead="", image=None):
 
 
 def room_list(lang, heading="h3"):
-    """Rooms as hairline rows: photo, name, other name, floor, number of photographs."""
+    """Rooms as a photo mosaic: name, other name, floor and number of photographs over each cover."""
     u = L[lang]["ui"]
-    rows = []
-    for k in ROOMS:
+    tiles = []
+    for i, k in enumerate(ROOMS):
         r, meta = L[lang]["rooms"][k], []
         if r["aka"]:
             meta.append(f'{u["aka"]} {r["aka"]}')
         if ROOM[k].get("floor"):
             meta.append(u["floors"][ROOM[k]["floor"]])
         meta.append(fill(u["photos"], n=len(PHOTOS[k])))
-        rows.append(f'<li><a href="{r["url"]}"><span class="r-photo">{photo(cover(k), "", sizes="(min-width: 641px) 220px, 100vw")}</span>'
-                    f'<span class="r-text"><{heading} class="r-title">{esc(r["title"])}</{heading}><span class="r-meta">{esc(" · ".join(meta))}</span></span></a></li>')
-    return f'<ul class="rooms">{"".join(rows)}</ul>'
+        sizes = "(min-width: 961px) 50vw, 100vw" if i in (0, 6) else "(min-width: 961px) 25vw, 50vw"
+        tiles.append(f'<li><a href="{r["url"]}">{photo(cover(k), "", sizes=sizes)}'
+                     f'<span class="m-text"><{heading} class="m-title">{esc(r["title"])}</{heading}><span class="m-meta">{esc(" · ".join(meta))}</span></span></a></li>')
+    return f'<ul class="mosaic">{"".join(tiles)}</ul>'
 
 
 def capacity_table(lang, only=None):
@@ -342,7 +343,7 @@ def render_home(lang):
  </dl>
 </div></section>
 
-<section class="band band-grey" aria-labelledby="spaces-title"><div class="wrap split">
+<section class="band band-grey" aria-labelledby="spaces-title"><div class="wrap stack">
  <div class="split-head"><h2 id="spaces-title" class="display-m">{esc(u['spacesTitle'])}</h2><p>{esc(u['spacesText'])}</p></div>
  {room_list(lang)}
 </div></section>
