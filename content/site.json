@@ -1,0 +1,30 @@
+{
+ "baseUrl": "https://www.velkoprevorskypalac.eu",
+ "languages": ["cs", "en", "fr", "it", "de"],
+ "contact": {
+  "email": "gpb@smom.cz",
+  "mobile": "+420 736 642 502",
+  "phone": "+420 257 530 824"
+ },
+ "rooms": [
+  {"key": "exterier", "cover": 23, "plan": "zahrada"},
+  {"key": "kocarovna", "cover": 1, "floor": "ground", "plan": "prizemi"},
+  {"key": "schodiste", "cover": 1},
+  {"key": "vez", "cover": 4},
+  {"key": "jidelna", "cover": 2, "floor": "first", "plan": "salony"},
+  {"key": "cerveny-salon", "cover": 4, "floor": "first", "plan": "salony"},
+  {"key": "rytirsky-sal", "cover": 1, "floor": "first", "plan": "salony"}
+ ],
+ "capacity": {
+  "rytirsky-sal": {"reception": 120, "theatre": 150, "classroom": 100, "banquet": 100, "size": [13.4, 10.4], "area": 140},
+  "cerveny-salon": {"reception": 50, "theatre": 40, "classroom": 20, "banquet": 30, "size": [7.4, 10.4], "area": 77},
+  "jidelna": {"reception": null, "theatre": null, "classroom": 12, "banquet": 12, "size": [9.5, 4.8], "area": 46}
+ },
+ "capacityOrder": ["rytirsky-sal", "cerveny-salon", "jidelna"],
+ "plans": [
+  {"key": "zahrada", "file": "/files/zahrada-nakres.pdf", "image": "plan-zahrada"},
+  {"key": "prizemi", "file": "/files/pudorys-prizemi.pdf", "image": "plan-prizemi"},
+  {"key": "patro", "file": "/files/pudorys-1-patro.pdf", "image": "plan-1-patro"},
+  {"key": "salony", "file": "/files/pudorys-1-patro-salony.pdf", "image": "plan-1-patro-salony"}
+ ]
+}

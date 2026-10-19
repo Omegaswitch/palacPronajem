@@ -1,0 +1,167 @@
+{
+ "langName": "Français",
+ "locale": "fr_FR",
+ "nav": [
+  "home",
+  "prostory",
+  "ke-stazeni",
+  "kontakt"
+ ],
+ "pages": {
+  "home": {
+   "url": "/fr/",
+   "title": "Palais du Grand Prieur",
+   "description": "Location des salons d’apparat et du jardin du palais du Grand Prieur à Malá Strana, Prague, pour conférences, réceptions, concerts et mariages."
+  },
+  "prostory": {
+   "url": "/fr/espaces/",
+   "title": "Espaces",
+   "description": "Salles, salons et jardin du palais du Grand Prieur à louer : photographies, capacités et plans.",
+   "lead": "Nous louons les salons d’apparat du palais et le jardin derrière le mur Lennon pour des conférences, des réceptions, des concerts et des mariages. Le rez-de-chaussée et le premier étage disposent chacun d’un office pour le traiteur."
+  },
+  "ke-stazeni": {
+   "url": "/fr/telechargements/",
+   "title": "Téléchargements pour les organisateurs",
+   "description": "Plans du palais du Grand Prieur et du jardin à télécharger en PDF pour les organisateurs d’événements.",
+   "lead": "Plans des étages et du jardin pour préparer votre événement."
+  },
+  "kontakt": {
+   "url": "/fr/contact/",
+   "title": "Contact",
+   "description": "Contact pour la location des salons du palais du Grand Prieur à Malá Strana, Prague."
+  }
+ },
+ "rooms": {
+  "exterier": {
+   "url": "/fr/espaces/exterieur-et-jardin/",
+   "title": "Extérieur et jardin",
+   "aka": "",
+   "lead": "Le palais et sa cour, et le jardin derrière le mur Lennon, où Ludwig van Beethoven composa sous le grand platane pendant son séjour à Prague. On entre dans le jardin depuis le mur Lennon ; trois portes y donnent depuis la sala terrena."
+  },
+  "kocarovna": {
+   "url": "/fr/espaces/remise-a-carrosses/",
+   "title": "Remise à carrosses",
+   "aka": "Salon turc",
+   "lead": "Une salle voûtée au rez-de-chaussée du palais. Le rez-de-chaussée comprend aussi la sala terrena, ouverte sur le jardin, et un office pour le traiteur."
+  },
+  "schodiste": {
+   "url": "/fr/espaces/escalier/",
+   "title": "Escalier",
+   "aka": "",
+   "lead": "Le monumental escalier à trois volées du palais, avec des putti portant des lanternes, de l’atelier de Matthias Bernhard Braun."
+  },
+  "vez": {
+   "url": "/fr/espaces/salle-de-la-tour/",
+   "title": "Salle de la tour",
+   "aka": "",
+   "lead": "Une salle gothique dans la tour, voûtée d’ogives, avec une fenêtre en encorbellement."
+  },
+  "jidelna": {
+   "url": "/fr/espaces/salle-a-manger-du-grand-prieur/",
+   "title": "Salle à manger du Grand Prieur",
+   "aka": "",
+   "lead": "Une petite salle à manger au premier étage pour les dîners assis."
+  },
+  "cerveny-salon": {
+   "url": "/fr/espaces/salon-rouge/",
+   "title": "Salon rouge",
+   "aka": "Salon rose",
+   "lead": "Un salon au premier étage, entre la salle des Chevaliers et la salle à manger du Grand Prieur."
+  },
+  "rytirsky-sal": {
+   "url": "/fr/espaces/salle-des-chevaliers/",
+   "title": "Salle des Chevaliers",
+   "aka": "Salle du Grand Prieur",
+   "lead": "La plus grande salle du palais, au premier étage, avec un poêle en faïence, une cheminée de marbre et des parquets."
+  }
+ },
+ "plans": {
+  "zahrada": "Plan du jardin",
+  "prizemi": "Plan du rez-de-chaussée – sala terrena et remise à carrosses (salon turc)",
+  "patro": "Plan du premier étage",
+  "salony": "Plan du premier étage – salle des Chevaliers (salle du Grand Prieur), salon rouge (salon rose) et salle à manger du Grand Prieur"
+ },
+ "ui": {
+  "skip": "Aller au contenu",
+  "menu": "Menu",
+  "langLabel": "Langue",
+  "home": "Accueil",
+  "breadcrumb": "Fil d’Ariane",
+  "inSection": "Espaces",
+  "site": "Palais du Grand Prieur",
+  "siteFull": "Palais du Grand Prieur",
+  "siteFullSub": "Siège du Grand Prieuré de Bohême de l’Ordre souverain militaire hospitalier de Saint-Jean de Jérusalem, de Rhodes et de Malte",
+  "lockup": "Ordre de Malte – République tchèque",
+  "orderShort": "Ordre de Malte",
+  "entity": "Grand Prieuré de Bohême",
+  "kicker": "Malá Strana, au pied du château de Prague",
+  "heroLead": "Bienvenue au palais du Grand Prieur et dans son jardin derrière le mur Lennon, l’un des coins les plus romantiques de Prague. Le palais est depuis plus de 850 ans le siège du Grand Prieuré de Bohême de l’Ordre de Malte, autrefois appelé les Hospitaliers de Saint-Jean.",
+  "rentTitle": "Location des salons",
+  "rentText": "Conférences, réceptions, concerts et mariages. Les prix sont fixés d’un commun accord, selon le type d’événement.",
+  "rentButton": "Demande de location",
+  "rentSubject": "Location des salons du palais du Grand Prieur",
+  "spaces": "Voir les espaces",
+  "aboutTitle": "Un lieu chargé d’histoire",
+  "aboutText": "Pour toutes sortes d’événements, nous louons nos salons d’apparat, où Miloš Forman a notamment tourné son Amadeus, ainsi que le jardin derrière le mur Lennon, où Ludwig van Beethoven composa sous le grand platane pendant son séjour à Prague.",
+  "historyLink": "Histoire du palais sur le site du Grand Prieuré",
+  "historyUrl": "https://www.maltezskyrad.cz/fr/grand-prieure/palais/",
+  "factsEvents": "Événements",
+  "factsEventsValue": "conférences, réceptions, concerts, mariages",
+  "factsPrices": "Prix",
+  "factsPricesValue": "d’un commun accord, selon le type d’événement",
+  "factsCatering": "Traiteur",
+  "factsCateringValue": "office au rez-de-chaussée et au premier étage",
+  "factsAddress": "Adresse",
+  "spacesTitle": "Espaces",
+  "spacesText": "Découvrez nos salons en photographies. Nous nous réjouissons de votre visite.",
+  "capacityTitle": "Capacité",
+  "capacityNote": "Nombre de personnes selon la disposition ; dimensions et surfaces d’après le plan du premier étage.",
+  "room": "Salle",
+  "reception": "Réception",
+  "theatre": "Théâtre",
+  "classroom": "Classe",
+  "banquet": "Banquet",
+  "size": "Dimensions",
+  "area": "Surface",
+  "floor": "Étage",
+  "floors": {
+   "ground": "rez-de-chaussée",
+   "first": "premier étage"
+  },
+  "aka": "Aussi",
+  "people": "personnes",
+  "photos": "{n} photographies",
+  "photoAlt": "{room}, photographie {i} sur {n}",
+  "openPhoto": "Agrandir",
+  "close": "Fermer",
+  "prev": "Photographie précédente",
+  "next": "Photographie suivante",
+  "planLink": "Plan (PDF)",
+  "plansTitle": "Plans à télécharger",
+  "download": "Télécharger",
+  "contactTitle": "Contact",
+  "contactPerson": "Lenka Hellerová, M.A.",
+  "contactOrg": "Grand Prieuré de Bohême de l’Ordre souverain militaire hospitalier de Saint-Jean de Jérusalem, de Rhodes et de Malte",
+  "contactAddress": [
+   "Velkopřevorské náměstí 4",
+   "(entrée Lázeňská 2)",
+   "118 00 Prague 1 – Malá Strana",
+   "République tchèque"
+  ],
+  "person": "Personne de contact",
+  "post": "Adresse",
+  "email": "E-mail",
+  "mobile": "Portable",
+  "phone": "Téléphone",
+  "linksTitle": "Liens",
+  "maltezskyrad": "Grand Prieuré de Bohême",
+  "orderofmalta": "Ordre souverain de Malte",
+  "notFound": "Page introuvable",
+  "notFoundText": "La page que vous cherchez n’existe pas ou a été déplacée.",
+  "status": {
+   "new": "Nouveau contenu – en attente d’approbation",
+   "translation": "Traduction – en attente de relecture",
+   "approval": "En attente d’approbation"
+  }
+ }
+}

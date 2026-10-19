@@ -1,0 +1,167 @@
+{
+ "langName": "Italiano",
+ "locale": "it_IT",
+ "nav": [
+  "home",
+  "prostory",
+  "ke-stazeni",
+  "kontakt"
+ ],
+ "pages": {
+  "home": {
+   "url": "/it/",
+   "title": "Palazzo del Gran Priore",
+   "description": "Affitto delle sale di rappresentanza e del giardino del Palazzo del Gran Priore a Malá Strana, Praga, per conferenze, ricevimenti, concerti e matrimoni."
+  },
+  "prostory": {
+   "url": "/it/spazi/",
+   "title": "Spazi",
+   "description": "Sale, saloni e giardino del Palazzo del Gran Priore in affitto: fotografie, capienze e piante.",
+   "lead": "Affittiamo le sale di rappresentanza del palazzo e il giardino dietro il muro di Lennon per conferenze, ricevimenti, concerti e matrimoni. Il piano terra e il primo piano dispongono ciascuno di un locale di appoggio per il catering."
+  },
+  "ke-stazeni": {
+   "url": "/it/download/",
+   "title": "Download per gli organizzatori",
+   "description": "Piante del Palazzo del Gran Priore e del giardino da scaricare in PDF per gli organizzatori di eventi.",
+   "lead": "Piante dei piani e del giardino per preparare il vostro evento."
+  },
+  "kontakt": {
+   "url": "/it/contatti/",
+   "title": "Contatti",
+   "description": "Contatti per l’affitto delle sale del Palazzo del Gran Priore a Malá Strana, Praga."
+  }
+ },
+ "rooms": {
+  "exterier": {
+   "url": "/it/spazi/esterni-e-giardino/",
+   "title": "Esterni e giardino",
+   "aka": "",
+   "lead": "Il palazzo con il cortile e il giardino dietro il muro di Lennon, dove Ludwig van Beethoven compose sotto il grande platano durante il suo soggiorno a Praga. Al giardino si accede dal muro di Lennon; tre porte vi si aprono dalla sala terrena."
+  },
+  "kocarovna": {
+   "url": "/it/spazi/rimessa-delle-carrozze/",
+   "title": "Rimessa delle carrozze",
+   "aka": "Salone turco",
+   "lead": "Una sala a volta al piano terra del palazzo. Al piano terra si trovano anche la sala terrena, aperta sul giardino, e un locale di appoggio per il catering."
+  },
+  "schodiste": {
+   "url": "/it/spazi/scalone/",
+   "title": "Scalone",
+   "aka": "",
+   "lead": "Il monumentale scalone a tre rampe del palazzo, con putti reggilanterna della bottega di Matthias Bernhard Braun."
+  },
+  "vez": {
+   "url": "/it/spazi/sala-della-torre/",
+   "title": "Sala della torre",
+   "aka": "",
+   "lead": "Una sala gotica nella torre con volta a crociera e una finestra a bovindo."
+  },
+  "jidelna": {
+   "url": "/it/spazi/sala-da-pranzo-del-gran-priore/",
+   "title": "Sala da pranzo del Gran Priore",
+   "aka": "",
+   "lead": "Una piccola sala da pranzo al primo piano per cene a tavola."
+  },
+  "cerveny-salon": {
+   "url": "/it/spazi/salone-rosso/",
+   "title": "Salone rosso",
+   "aka": "Salottino rosa",
+   "lead": "Un salone al primo piano, tra la Sala dei Cavalieri e la Sala da pranzo del Gran Priore."
+  },
+  "rytirsky-sal": {
+   "url": "/it/spazi/sala-dei-cavalieri/",
+   "title": "Sala dei Cavalieri",
+   "aka": "Sala del Gran Priore",
+   "lead": "La sala più grande del palazzo, al primo piano, con una stufa in maiolica, un camino di marmo e pavimenti in parquet."
+  }
+ },
+ "plans": {
+  "zahrada": "Pianta del giardino",
+  "prizemi": "Pianta del piano terra – sala terrena e Rimessa delle carrozze (Salone turco)",
+  "patro": "Pianta del primo piano",
+  "salony": "Pianta del primo piano – Sala dei Cavalieri (Sala del Gran Priore), Salone rosso (Salottino rosa) e Sala da pranzo del Gran Priore"
+ },
+ "ui": {
+  "skip": "Vai al contenuto",
+  "menu": "Menu",
+  "langLabel": "Lingua",
+  "home": "Home",
+  "breadcrumb": "Percorso di navigazione",
+  "inSection": "Spazi",
+  "site": "Palazzo del Gran Priore",
+  "siteFull": "Palazzo del Gran Priore",
+  "siteFullSub": "Sede del Gran Priorato di Boemia del Sovrano Militare Ordine Ospedaliero di San Giovanni di Gerusalemme, di Rodi e di Malta",
+  "lockup": "Ordine di Malta – Repubblica Ceca",
+  "orderShort": "Ordine di Malta",
+  "entity": "Gran Priorato di Boemia",
+  "kicker": "Malá Strana, sotto il Castello di Praga",
+  "heroLead": "Benvenuti nel Palazzo del Gran Priore e nel suo giardino dietro il muro di Lennon, in uno degli angoli più romantici di Praga. Da oltre 850 anni il palazzo è la sede del Gran Priorato di Boemia dell’Ordine di Malta, un tempo detti Gerosolimitani.",
+  "rentTitle": "Affitto delle sale",
+  "rentText": "Conferenze, ricevimenti, concerti e matrimoni. I prezzi si concordano in base al tipo di evento.",
+  "rentButton": "Richiedi informazioni",
+  "rentSubject": "Affitto delle sale del Palazzo del Gran Priore",
+  "spaces": "Vedi gli spazi",
+  "aboutTitle": "Un luogo con una storia",
+  "aboutText": "Per ogni genere di evento affittiamo le nostre sale di rappresentanza, dove tra l’altro Miloš Forman girò il suo Amadeus, e il giardino dietro il muro di Lennon, dove Ludwig van Beethoven compose sotto il grande platano durante il suo soggiorno a Praga.",
+  "historyLink": "Storia del palazzo sul sito del Gran Priorato",
+  "historyUrl": "https://www.maltezskyrad.cz/it/gran-priorato/palazzo/",
+  "factsEvents": "Eventi",
+  "factsEventsValue": "conferenze, ricevimenti, concerti, matrimoni",
+  "factsPrices": "Prezzi",
+  "factsPricesValue": "da concordare, in base al tipo di evento",
+  "factsCatering": "Catering",
+  "factsCateringValue": "locale di appoggio al piano terra e al primo piano",
+  "factsAddress": "Indirizzo",
+  "spacesTitle": "Spazi",
+  "spacesText": "Guardate le nostre sale nelle fotografie. Saremo lieti della vostra visita.",
+  "capacityTitle": "Capienza",
+  "capacityNote": "Numero di persone secondo la disposizione; dimensioni e superfici dalla pianta del primo piano.",
+  "room": "Sala",
+  "reception": "Ricevimento",
+  "theatre": "Platea",
+  "classroom": "Aula",
+  "banquet": "Banchetto",
+  "size": "Dimensioni",
+  "area": "Superficie",
+  "floor": "Piano",
+  "floors": {
+   "ground": "piano terra",
+   "first": "primo piano"
+  },
+  "aka": "Detta anche",
+  "people": "persone",
+  "photos": "{n} fotografie",
+  "photoAlt": "{room}, fotografia {i} di {n}",
+  "openPhoto": "Ingrandisci",
+  "close": "Chiudi",
+  "prev": "Fotografia precedente",
+  "next": "Fotografia successiva",
+  "planLink": "Pianta (PDF)",
+  "plansTitle": "Piante da scaricare",
+  "download": "Scarica",
+  "contactTitle": "Contatti",
+  "contactPerson": "Lenka Hellerová, M.A.",
+  "contactOrg": "Gran Priorato di Boemia del Sovrano Militare Ordine Ospedaliero di San Giovanni di Gerusalemme, di Rodi e di Malta",
+  "contactAddress": [
+   "Velkopřevorské náměstí 4",
+   "(ingresso Lázeňská 2)",
+   "118 00 Praga 1 – Malá Strana",
+   "Repubblica Ceca"
+  ],
+  "person": "Persona di contatto",
+  "post": "Indirizzo",
+  "email": "E-mail",
+  "mobile": "Cellulare",
+  "phone": "Telefono",
+  "linksTitle": "Link",
+  "maltezskyrad": "Gran Priorato di Boemia",
+  "orderofmalta": "Sovrano Ordine di Malta",
+  "notFound": "Pagina non trovata",
+  "notFoundText": "La pagina che cercate non esiste o è stata spostata.",
+  "status": {
+   "new": "Nuovo contenuto – in attesa di approvazione",
+   "translation": "Traduzione – in attesa di revisione",
+   "approval": "In attesa di approvazione"
+  }
+ }
+}

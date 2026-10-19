@@ -1,0 +1,5 @@
+dist/
+__pycache__/
+node_modules/
+.vercel/
+graphify-out/cache/

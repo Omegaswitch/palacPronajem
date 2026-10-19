@@ -1,0 +1,451 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "python3 build.py --production",
+  "outputDirectory": "dist",
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Speculation-Rules",
+          "value": "\"/speculation-rules.json\""
+        }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/media/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/files/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/speculation-rules.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/speculationrules+json"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "101"
+        }
+      ],
+      "destination": "/prostory/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "586"
+        }
+      ],
+      "destination": "/prostory/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "506"
+        }
+      ],
+      "destination": "/ke-stazeni/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "2"
+        }
+      ],
+      "destination": "/kontakt/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "431"
+        }
+      ],
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "578"
+        }
+      ],
+      "destination": "/en/spaces/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "382"
+        }
+      ],
+      "destination": "/en/spaces/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "538"
+        }
+      ],
+      "destination": "/en/downloads/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "470"
+        }
+      ],
+      "destination": "/en/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "356-2-2"
+        }
+      ],
+      "destination": "/prostory/exterier-a-zahrada/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "363-2"
+        }
+      ],
+      "destination": "/prostory/kocarovna/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "schodiste-2"
+        }
+      ],
+      "destination": "/prostory/schodiste/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "362-2"
+        }
+      ],
+      "destination": "/prostory/vez/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "jidelna-2-2"
+        }
+      ],
+      "destination": "/prostory/velkoprevorska-jidelna/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "cerveny-salon"
+        }
+      ],
+      "destination": "/prostory/cerveny-salon/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "repre-2"
+        }
+      ],
+      "destination": "/prostory/rytirsky-sal/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "356-2"
+        }
+      ],
+      "destination": "/en/spaces/exterior-and-garden/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "coach-room-ground-floor"
+        }
+      ],
+      "destination": "/en/spaces/coach-room/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "schodiste"
+        }
+      ],
+      "destination": "/en/spaces/staircase/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "362"
+        }
+      ],
+      "destination": "/en/spaces/tower-room/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "jidelna"
+        }
+      ],
+      "destination": "/en/spaces/grand-priors-dining-room/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "cerveny-salon-2"
+        }
+      ],
+      "destination": "/en/spaces/red-saloon/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "rl_gallery",
+          "value": "repre-2-2"
+        }
+      ],
+      "destination": "/en/spaces/knights-hall/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2023/03/Zahrada_nakres.pdf",
+      "destination": "/files/zahrada-nakres.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2023/03/Pudorys_prizemi.pdf",
+      "destination": "/files/pudorys-prizemi.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2023/03/Pudorys_1_patro.pdf",
+      "destination": "/files/pudorys-1-patro.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2023/03/Pudorys-1_patro-cast.pdf",
+      "destination": "/files/pudorys-1-patro-salony.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-login.php",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/xmlrpc.php",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/feed/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/comments/feed/",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}

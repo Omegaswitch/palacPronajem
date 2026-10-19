@@ -1,0 +1,167 @@
+{
+ "langName": "Deutsch",
+ "locale": "de_DE",
+ "nav": [
+  "home",
+  "prostory",
+  "ke-stazeni",
+  "kontakt"
+ ],
+ "pages": {
+  "home": {
+   "url": "/de/",
+   "title": "Großpriorats-Palais",
+   "description": "Vermietung der Repräsentationsräume und des Gartens des Großpriorats-Palais auf der Prager Kleinseite für Konferenzen, Empfänge, Konzerte und Hochzeiten."
+  },
+  "prostory": {
+   "url": "/de/raeume/",
+   "title": "Räume",
+   "description": "Säle, Salons und Garten des Großpriorats-Palais zur Miete: Fotos, Kapazitäten und Grundrisse.",
+   "lead": "Wir vermieten die Repräsentationsräume des Palais und den Garten hinter der Lennon-Mauer für Konferenzen, Empfänge, Konzerte und Hochzeiten. Erdgeschoss und erster Stock haben jeweils einen eigenen Vorbereitungsraum für das Catering."
+  },
+  "ke-stazeni": {
+   "url": "/de/downloads/",
+   "title": "Downloads für Veranstalter",
+   "description": "Grundrisse des Großpriorats-Palais und Gartenplan als PDF zum Herunterladen für Veranstalter.",
+   "lead": "Grundrisse und Gartenplan für die Planung Ihrer Veranstaltung."
+  },
+  "kontakt": {
+   "url": "/de/kontakt/",
+   "title": "Kontakt",
+   "description": "Kontakt für die Anmietung der Räume des Großpriorats-Palais auf der Prager Kleinseite."
+  }
+ },
+ "rooms": {
+  "exterier": {
+   "url": "/de/raeume/aussenansicht-und-garten/",
+   "title": "Außenansicht und Garten",
+   "aka": "",
+   "lead": "Das Palais mit seinem Hof und der Garten hinter der Lennon-Mauer, in dem Ludwig van Beethoven während seines Prager Aufenthalts unter der großen Platane komponierte. Den Garten betritt man von der Lennon-Mauer aus; drei Türen führen von der Sala terrena hinein."
+  },
+  "kocarovna": {
+   "url": "/de/raeume/remise/",
+   "title": "Remise",
+   "aka": "Türkischer Salon",
+   "lead": "Ein gewölbter Saal im Erdgeschoss des Palais. Im Erdgeschoss liegen auch die Sala terrena mit Zugang zum Garten und ein Vorbereitungsraum für das Catering."
+  },
+  "schodiste": {
+   "url": "/de/raeume/treppenhaus/",
+   "title": "Treppenhaus",
+   "aka": "",
+   "lead": "Das monumentale dreiläufige Treppenhaus des Palais mit laternentragenden Putten aus der Werkstatt von Matthias Bernhard Braun."
+  },
+  "vez": {
+   "url": "/de/raeume/turmzimmer/",
+   "title": "Turmzimmer",
+   "aka": "",
+   "lead": "Ein gotischer Raum im Turm mit Kreuzrippengewölbe und Erkerfenster."
+  },
+  "jidelna": {
+   "url": "/de/raeume/speisesaal-des-grosspriors/",
+   "title": "Speisesaal des Großpriors",
+   "aka": "",
+   "lead": "Ein kleinerer Speisesaal im ersten Stock für gesetzte Essen."
+  },
+  "cerveny-salon": {
+   "url": "/de/raeume/roter-salon/",
+   "title": "Roter Salon",
+   "aka": "Rosa Salon",
+   "lead": "Ein Salon im ersten Stock, zwischen dem Rittersaal und dem Speisesaal des Großpriors."
+  },
+  "rytirsky-sal": {
+   "url": "/de/raeume/rittersaal/",
+   "title": "Rittersaal",
+   "aka": "Großpriorats-Saal",
+   "lead": "Der größte Saal des Palais im ersten Stock, mit Kachelofen, Marmorkamin und Parkettböden."
+  }
+ },
+ "plans": {
+  "zahrada": "Gartenplan",
+  "prizemi": "Grundriss Erdgeschoss – Sala terrena und Remise (Türkischer Salon)",
+  "patro": "Grundriss erster Stock",
+  "salony": "Grundriss erster Stock – Rittersaal (Großpriorats-Saal), Roter Salon (Rosa Salon) und Speisesaal des Großpriors"
+ },
+ "ui": {
+  "skip": "Zum Inhalt",
+  "menu": "Menü",
+  "langLabel": "Sprache",
+  "home": "Startseite",
+  "breadcrumb": "Brotkrümelnavigation",
+  "inSection": "Räume",
+  "site": "Großpriorats-Palais",
+  "siteFull": "Großpriorats-Palais",
+  "siteFullSub": "Sitz des Großpriorats Böhmen des Souveränen Ritter- und Hospitalordens vom Heiligen Johannes von Jerusalem, von Rhodos und von Malta",
+  "lockup": "Der Malteserorden – Tschechische Republik",
+  "orderShort": "Malteserorden",
+  "entity": "Großpriorat Böhmen",
+  "kicker": "Kleinseite, unterhalb der Prager Burg",
+  "heroLead": "Willkommen im Großpriorats-Palais und in seinem Garten hinter der Lennon-Mauer, in einem der romantischsten Winkel Prags. Das Palais ist seit über 850 Jahren Sitz des Großpriorats Böhmen des Malteserordens, früher Johanniter genannt.",
+  "rentTitle": "Räume zur Miete",
+  "rentText": "Konferenzen, Empfänge, Konzerte und Hochzeiten. Die Preise werden je nach Art der Veranstaltung vereinbart.",
+  "rentButton": "Anfrage senden",
+  "rentSubject": "Anmietung von Räumen im Großpriorats-Palais",
+  "spaces": "Räume ansehen",
+  "aboutTitle": "Ein Ort mit Geschichte",
+  "aboutText": "Für Veranstaltungen aller Art vermieten wir unsere Repräsentationsräume, in denen unter anderem Miloš Forman seinen Amadeus drehte, sowie den Garten hinter der Lennon-Mauer, in dem Ludwig van Beethoven während seines Prager Aufenthalts unter der großen Platane komponierte.",
+  "historyLink": "Geschichte des Palais auf der Website des Großpriorats",
+  "historyUrl": "https://www.maltezskyrad.cz/de/grosspriorat/palais/",
+  "factsEvents": "Veranstaltungen",
+  "factsEventsValue": "Konferenzen, Empfänge, Konzerte, Hochzeiten",
+  "factsPrices": "Preise",
+  "factsPricesValue": "nach Vereinbarung, je nach Art der Veranstaltung",
+  "factsCatering": "Catering",
+  "factsCateringValue": "Vorbereitungsraum im Erdgeschoss und im ersten Stock",
+  "factsAddress": "Adresse",
+  "spacesTitle": "Räume",
+  "spacesText": "Sehen Sie sich unsere Räume auf den Fotos an. Wir freuen uns auf Ihren Besuch.",
+  "capacityTitle": "Kapazität",
+  "capacityNote": "Personenzahl je nach Bestuhlung; Maße und Flächen nach dem Grundriss des ersten Stocks.",
+  "room": "Raum",
+  "reception": "Empfang",
+  "theatre": "Theater",
+  "classroom": "Parlament",
+  "banquet": "Bankett",
+  "size": "Maße",
+  "area": "Fläche",
+  "floor": "Geschoss",
+  "floors": {
+   "ground": "Erdgeschoss",
+   "first": "erster Stock"
+  },
+  "aka": "Auch",
+  "people": "Personen",
+  "photos": "{n} Fotos",
+  "photoAlt": "{room}, Foto {i} von {n}",
+  "openPhoto": "Vergrößern",
+  "close": "Schließen",
+  "prev": "Vorheriges Foto",
+  "next": "Nächstes Foto",
+  "planLink": "Grundriss (PDF)",
+  "plansTitle": "Grundrisse zum Herunterladen",
+  "download": "Herunterladen",
+  "contactTitle": "Kontakt",
+  "contactPerson": "MgA. Lenka Hellerová",
+  "contactOrg": "Großpriorat Böhmen des Souveränen Ritter- und Hospitalordens vom Heiligen Johannes von Jerusalem, von Rhodos und von Malta",
+  "contactAddress": [
+   "Velkopřevorské náměstí 4",
+   "(Eingang Lázeňská 2)",
+   "118 00 Prag 1 – Kleinseite",
+   "Tschechische Republik"
+  ],
+  "person": "Ansprechpartnerin",
+  "post": "Adresse",
+  "email": "E-Mail",
+  "mobile": "Mobil",
+  "phone": "Telefon",
+  "linksTitle": "Links",
+  "maltezskyrad": "Großpriorat Böhmen",
+  "orderofmalta": "Souveräner Malteserorden",
+  "notFound": "Seite nicht gefunden",
+  "notFoundText": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+  "status": {
+   "new": "Neuer Inhalt – wartet auf Freigabe",
+   "translation": "Übersetzung – wartet auf Prüfung",
+   "approval": "Wartet auf Freigabe"
+  }
+ }
+}
