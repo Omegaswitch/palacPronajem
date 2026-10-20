@@ -1,7 +1,7 @@
-# Graph Report - palacpronajem  (2026-10-19)
+# Graph Report - palacpronajem  (2026-10-20)
 
 ## Corpus Check
-- 15 files · ~1,343,439 words
+- 15 files · ~1,343,506 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 19 file(s) not represented in the graph (top: .woff2 16, (none) 1, .css 1)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e48790f9`
+- Built from commit: `234388bf`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
