@@ -10,6 +10,7 @@ Photos: static/media/<room>-<nn>-{480,800,1600}.webp; a room's gallery is every 
 """
 import html
 import json
+import os
 import re
 import shutil
 import struct
@@ -137,6 +138,9 @@ def layout(*, lang, key, title, body, description="", image="/media/palac-1600.w
     url = url_of(key, lang) if key else "/404.html"
     full_title = title if key == "home" else f"{title} | {u['site']}"
     canonical = SITE["baseUrl"] + url
+    # one 1200×630 card per language (tools/make_og.py), served from the domain Vercel serves now (its .vercel.app
+    # address until the domain moves, then that domain), so shared links show it before launch.
+    og_image = (f"https://{os.environ['VERCEL_PROJECT_PRODUCTION_URL']}" if os.environ.get("VERCEL_PROJECT_PRODUCTION_URL") else SITE["baseUrl"]) + f"/img/og-{lang}.jpg"
     robots = '<meta name="robots" content="noindex, nofollow">' if not PRODUCTION else ""
     alt_links = "".join(f'<link rel="alternate" hreflang="{l}" href="{SITE["baseUrl"]}{url_of(key, l)}">' for l in LANGS) + \
         f'<link rel="alternate" hreflang="x-default" href="{SITE["baseUrl"]}{url_of(key, "cs")}">' if key else ""
@@ -168,7 +172,10 @@ def layout(*, lang, key, title, body, description="", image="/media/palac-1600.w
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(plain(description or body, 160))}">
 <meta property="og:url" content="{canonical}">
-<meta property="og:image" content="{SITE['baseUrl']}{image}">
+<meta property="og:image" content="{og_image}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(u['site'])}">
 <meta property="og:locale" content="{t['locale']}">
 <meta name="twitter:card" content="summary_large_image">
 {ld}
