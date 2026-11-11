@@ -67,9 +67,10 @@ def image_size(rel_url):
 
 
 def photo(name, alt, sizes="100vw", eager=False, cls=""):
-    """/media/<name>-800.webp plus the 480 and 1600 px versions."""
-    src, small, big = (f"/media/{name}-{w}.webp" for w in (800, 480, 1600))
-    srcset = f' srcset="{small} 480w, {src} 800w' + (f', {big} 1600w' if (STATIC / big.lstrip("/")).exists() else "") + f'" sizes="{esc(sizes)}"'
+    """/media/<name>-800.webp plus the 480, 1280 (only where it exists: the hero) and 1600 px versions."""
+    src, small, mid, big = (f"/media/{name}-{w}.webp" for w in (800, 480, 1280, 1600))
+    extra = "".join(f", {u} {w}w" for u, w in ((mid, 1280), (big, 1600)) if (STATIC / u.lstrip("/")).exists())
+    srcset = f' srcset="{small} 480w, {src} 800w{extra}" sizes="{esc(sizes)}"'
     w, h = image_size(src)
     load = 'fetchpriority="high"' if eager else 'loading="lazy"'
     return f'<img class="ph-img {cls}" src="{src}"{srcset} alt="{esc(alt)}" width="{w}" height="{h}" {load} decoding="async">'
@@ -95,6 +96,7 @@ def cover(key):
 # ---------------------------------------------------------------- layout
 
 FONTS_PRELOAD = ["asap-latin-400-normal", "eb-garamond-latin-500-normal"]
+FONTS_PRELOAD_CS = ["asap-latin-ext-400-normal", "eb-garamond-latin-ext-500-normal"]  # Czech accents (ř, ů, ě…) sit in the latin-ext files
 # inlined in every page (about 7 kB compressed): no render-blocking stylesheet request
 CSS = re.sub(r"\s*([{}:;,>])\s*", r"\1", re.sub(r"/\*.*?\*/|\n\s*", "", (STATIC / "css" / "site.css").read_text(encoding="utf-8"), flags=re.S)).replace(";}", "}")
 
@@ -144,9 +146,9 @@ def layout(*, lang, key, title, body, description="", image="/media/palac-1600.w
     robots = '<meta name="robots" content="noindex, nofollow">' if not PRODUCTION else ""
     alt_links = "".join(f'<link rel="alternate" hreflang="{l}" href="{SITE["baseUrl"]}{url_of(key, l)}">' for l in LANGS) + \
         f'<link rel="alternate" hreflang="x-default" href="{SITE["baseUrl"]}{url_of(key, "cs")}">' if key else ""
-    hero = '<link rel="preload" as="image" href="/media/palac-800.webp" imagesrcset="/media/palac-480.webp 480w, /media/palac-800.webp 800w, /media/palac-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">' if key == "home" else ""
+    hero = '<link rel="preload" as="image" href="/media/palac-800.webp" imagesrcset="/media/palac-480.webp 480w, /media/palac-800.webp 800w, /media/palac-1280.webp 1280w, /media/palac-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">' if key == "home" else ""
     lockups = "".join(f'<link rel="prefetch" href="/img/lockup/{l}.svg" as="image">' for l in LANGS if l != lang)
-    preload = hero + lockups + "".join(f'<link rel="preload" href="/fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>' for f in FONTS_PRELOAD) + \
+    preload = hero + lockups + "".join(f'<link rel="preload" href="/fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>' for f in FONTS_PRELOAD + (FONTS_PRELOAD_CS if lang == "cs" else [])) + \
         '<link rel="preload" href="/img/banner/banner-photo.webp" as="image" fetchpriority="high">'
     ld = ""
     if key == "home":  # what the place is, for search engines (data only, not executed)
