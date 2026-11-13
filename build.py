@@ -330,7 +330,7 @@ def render_home(lang):
  <div class="wrap hero-grid">
   <div class="hero-text">
    <p class="kicker">{esc(u['kicker'])}</p>
-   <h1 id="home-title" class="display">{esc(u['site'])}</h1>
+   <h1 id="home-title" class="display">{esc(u.get('heroTitle', u['site']))}</h1>
    <p class="lead">{esc(u['heroLead'])}</p>
   </div>
   <div class="next">

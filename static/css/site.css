@@ -217,7 +217,7 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 .page{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s5) clamp(var(--s6),5vw,var(--s8));padding-block:var(--s5) clamp(var(--s7),7vw,var(--s9))}
 .page--with-side{grid-template-columns:minmax(0,1fr) 270px}
 .page-head{grid-column:1/-1;display:grid;gap:var(--s3);padding-block:var(--s4) var(--s2);max-width:58rem}
-.page-main{min-width:0;display:grid;gap:var(--s6);align-content:start}
+.page-main{min-width:0;display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s6);align-content:start}
 .page-side{min-width:0}
 .page-figure{margin:0;max-width:800px}
 .page-figure img{width:auto;max-width:100%;height:auto;max-height:min(72vh,620px)}
@@ -347,18 +347,18 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 .band-grey .contact-card{border-top-color:var(--rule)}
 .facts{max-width:none}
 
-/* rooms: photo mosaic, the exterior and the Knights' Hall large; the name sits on a dark fade at the foot of each photo */
+/* rooms: photo mosaic of six, the exterior large and the last row two wide tiles (Red Salon, Knights' Hall); the name sits on a dark fade at the foot of each photo */
 .stack{display:grid;gap:var(--s6)}
 .mosaic{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:clamp(170px,17vw,230px);gap:var(--s2)}
 .mosaic li:nth-child(1){grid-column:span 2;grid-row:span 2}
 .mosaic li:nth-child(3){grid-row:span 2}
-.mosaic li:nth-child(7){grid-column:span 2}
+.mosaic li:nth-child(5),.mosaic li:nth-child(6){grid-column:span 2}
 .mosaic a{position:relative;display:block;height:100%;overflow:hidden;background:var(--ink-strong);color:#fff;text-decoration:none}
 .mosaic img{width:100%;height:100%;object-fit:cover;transition:transform 700ms var(--ease),filter 900ms cubic-bezier(.16,1,.3,1)}
 .mosaic a::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,17,17,0) 45%,rgba(17,17,17,.78) 100%);transition:opacity var(--med) var(--ease)}
 .m-text{position:absolute;left:0;right:0;bottom:0;z-index:1;display:grid;gap:2px;padding:var(--s4) var(--s5)}
 .m-title{font:500 1.35rem/1.2 var(--display);color:#fff}
-.mosaic li:nth-child(1) .m-title,.mosaic li:nth-child(7) .m-title{font-size:clamp(1.5rem,2.4vw,2rem)}
+.mosaic li:nth-child(1) .m-title,.mosaic li:nth-child(6) .m-title{font-size:clamp(1.5rem,2.4vw,2rem)}
 .m-meta{font-size:.82rem;color:rgba(255,255,255,.85)}
 .mosaic a::before{content:"";position:absolute;left:0;bottom:0;z-index:1;width:0;height:3px;background:var(--red);transition:width var(--med) var(--ease)}
 @media (hover:hover){.mosaic a:hover img{transform:scale(1.04)}.mosaic a:hover::before{width:100%}}
@@ -410,7 +410,7 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
   .room-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
   .mosaic{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:clamp(150px,38vw,260px)}
   .mosaic li:nth-child(n){grid-column:auto;grid-row:auto}
-  .mosaic li:nth-child(1),.mosaic li:nth-child(4),.mosaic li:nth-child(7){grid-column:span 2}
+  .mosaic li:nth-child(1),.mosaic li:nth-child(4){grid-column:span 2}
 }
 @media (max-width:640px){
   .next{padding:var(--s5)}
