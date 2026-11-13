@@ -4,6 +4,7 @@
  "nav": [
   "home",
   "prostory",
+  "historie",
   "ke-stazeni",
   "kontakt"
  ],
@@ -18,6 +19,12 @@
    "title": "Espaces",
    "description": "Salles, salons et jardin du palais du Grand Prieur à louer : photographies, capacités et plans.",
    "lead": "Nous louons les salons d’apparat du palais et le jardin derrière le mur Lennon pour des conférences, des réceptions, des concerts et des mariages. Le rez-de-chaussée et le premier étage disposent chacun d’un office pour le traiteur."
+  },
+  "historie": {
+   "url": "/fr/histoire/",
+   "title": "Histoire du palais",
+   "description": "Le palais baroque du Grand Prieur à Malá Strana, siège du Grand Prieuré de Bohême : histoire, architecture et usage actuel.",
+   "body": "<p>Le palais du Grand Prieur, dans le quartier de Malá Strana à Prague, est le siège du Grand Prieuré de Bohême. Il s'élève à l'emplacement de la commanderie des Hospitaliers fondée ici dans la seconde moitié du XIIe siècle à côté de l'église Notre-Dame-sous-la-Chaîne ; le palais actuel suit encore le plan de son hôpital roman à trois ailes.</p>\n<h2>L'édifice baroque</h2>\n<p>La reconstruction fut décidée par le grand prieur Charles-Léopold comte de Herberstein. Les plans furent dressés par le bâtisseur milanais Giuseppe Bartolomeo Scotti ; le palais fut construit en 1726–1727 et achevé sous le grand prieur Gundaker Poppo comte de Dietrichstein : une résidence à un étage et quatre ailes, coiffée de lucarnes à oculi ovales.</p>\n<p>Les deux portails, au sud et à l'ouest, proviennent de l'atelier de Matthias Bernhard Braun et portent les armes du grand prieur Dietrichstein. Le même atelier orna le monumental escalier à trois volées de putti porte-lumière, l'un des plus beaux des pays tchèques. Les intérieurs conservent des plafonds de stuc, des portes marquetées, des parquets, des cheminées de marbre et des poêles de faïence de la manufacture Dietrichstein. À l'angle de la place Velkopřevorské náměstí se dresse une borne chasse-roue de 190 cm, sans doute la plus grande de Prague.</p>\n<p>Vers 1730, le grand prieur Dietrichstein commanda à l'atelier bruxellois de Peter van den Hecke six tapisseries pour la grande salle, aujourd'hui salle des Chevaliers. Emportées pendant l'occupation nazie, quatre d'entre elles furent retrouvées après la guerre ; elles se trouvent aujourd'hui, en prêt permanent du Grand Prieuré de Bohême, au siège de l'Ordre à Rome.</p>\n<h2>Au XXe siècle</h2>\n<p>Après la réforme agraire, l'Ordre loua le palais de 1919 à 1931 à la légation du Royaume des Serbes, Croates et Slovènes (plus tard la Yougoslavie). Pendant l'occupation, le bien fut transféré au Reich allemand, puis les communistes s'emparèrent du palais en 1949 ; à partir de 1950, il abrita le musée de la Musique du Musée national. En 1984, des scènes du film <em>Amadeus</em> de Miloš Forman y furent tournées.</p>\n<p>En vertu de la loi n° 338/1991, le palais fut restitué à l'Ordre ; le musée le quitta en 2003. Lors des inondations d'août 2002, l'eau envahit les caves et le rez-de-chaussée. En 2019–2022, la charpente attaquée par la mérule fut restaurée et la couverture refaite.</p>\n<h2>Aujourd'hui</h2>\n<p>Le palais sert à l'Ordre et accueille des conférences publiques et des colloques. Son jardin se trouve derrière le mur dit de Lennon. Les salons d'apparat peuvent être loués ; voir <a href=\"/fr/espaces/\">Espaces</a> pour les salles et <a href=\"/fr/contact/\">Contact</a> pour les organisateurs.</p>\n<p class=\"small\">Source : Milan M. Buben, <em>Chrám Panny Marie pod řetězem a Velkopřevorský palác. Dějiny a průvodce</em> (L'église Notre-Dame-sous-la-Chaîne et le palais du Grand Prieur : histoire et guide), Prague 2026.</p>"
   },
   "ke-stazeni": {
    "url": "/fr/telechargements/",
@@ -37,12 +44,6 @@
    "title": "Extérieur et jardin",
    "aka": "",
    "lead": "Le palais et sa cour, et le jardin derrière le mur Lennon, où Ludwig van Beethoven composa sous le grand platane pendant son séjour à Prague. On entre dans le jardin depuis le mur Lennon ; trois portes y donnent depuis la sala terrena."
-  },
-  "kocarovna": {
-   "url": "/fr/espaces/remise-a-carrosses/",
-   "title": "Remise à carrosses",
-   "aka": "Salon turc",
-   "lead": "Une salle voûtée au rez-de-chaussée du palais. Le rez-de-chaussée comprend aussi la sala terrena, ouverte sur le jardin, et un office pour le traiteur."
   },
   "schodiste": {
    "url": "/fr/espaces/escalier/",
@@ -77,7 +78,7 @@
  },
  "plans": {
   "zahrada": "Plan du jardin",
-  "prizemi": "Plan du rez-de-chaussée – sala terrena et remise à carrosses (salon turc)",
+  "prizemi": "Plan du rez-de-chaussée – sala terrena",
   "patro": "Plan du premier étage",
   "salony": "Plan du premier étage – salle des Chevaliers (salle du Grand Prieur), salon rouge (salon rose) et salle à manger du Grand Prieur"
  },

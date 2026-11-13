@@ -8,7 +8,6 @@
  },
  "rooms": [
   {"key": "exterier", "cover": 23, "plan": "zahrada"},
-  {"key": "kocarovna", "cover": 1, "floor": "ground", "plan": "prizemi"},
   {"key": "schodiste", "cover": 1},
   {"key": "vez", "cover": 4},
   {"key": "jidelna", "cover": 2, "floor": "first", "plan": "salony"},

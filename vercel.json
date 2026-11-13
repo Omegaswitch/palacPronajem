@@ -110,6 +110,36 @@
   ],
   "redirects": [
     {
+      "source": "/prostory/kocarovna/",
+      "destination": "/prostory/",
+      "permanent": true
+    },
+    {
+      "source": "/en/spaces/coach-room/",
+      "destination": "/en/spaces/",
+      "permanent": true
+    },
+    {
+      "source": "/fr/espaces/remise-a-carrosses/",
+      "destination": "/fr/espaces/",
+      "permanent": true
+    },
+    {
+      "source": "/it/spazi/rimessa-delle-carrozze/",
+      "destination": "/it/spazi/",
+      "permanent": true
+    },
+    {
+      "source": "/de/raeume/remise/",
+      "destination": "/de/raeume/",
+      "permanent": true
+    },
+    {
+      "source": "/en/spaces/red-saloon/",
+      "destination": "/en/spaces/red-salon/",
+      "permanent": true
+    },
+    {
       "source": "/",
       "has": [
         {
@@ -250,7 +280,7 @@
           "value": "363-2"
         }
       ],
-      "destination": "/prostory/kocarovna/",
+      "destination": "/prostory/",
       "permanent": true
     },
     {
@@ -334,7 +364,7 @@
           "value": "coach-room-ground-floor"
         }
       ],
-      "destination": "/en/spaces/coach-room/",
+      "destination": "/en/spaces/",
       "permanent": true
     },
     {
@@ -382,7 +412,7 @@
           "value": "cerveny-salon-2"
         }
       ],
-      "destination": "/en/spaces/red-saloon/",
+      "destination": "/en/spaces/red-salon/",
       "permanent": true
     },
     {

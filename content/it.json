@@ -4,6 +4,7 @@
  "nav": [
   "home",
   "prostory",
+  "historie",
   "ke-stazeni",
   "kontakt"
  ],
@@ -18,6 +19,12 @@
    "title": "Spazi",
    "description": "Sale, saloni e giardino del Palazzo del Gran Priore in affitto: fotografie, capienze e piante.",
    "lead": "Affittiamo le sale di rappresentanza del palazzo e il giardino dietro il muro di Lennon per conferenze, ricevimenti, concerti e matrimoni. Il piano terra e il primo piano dispongono ciascuno di un locale di appoggio per il catering."
+  },
+  "historie": {
+   "url": "/it/storia/",
+   "title": "Storia del palazzo",
+   "description": "Il barocco Palazzo del Gran Priore a Malá Strana, sede del Gran Priorato di Boemia: storia, architettura e uso attuale.",
+   "body": "<p>Il Palazzo del Gran Priore, nel quartiere praghese di Malá Strana, è la sede del Gran Priorato di Boemia. Sorge sul luogo della commenda dei Cavalieri di San Giovanni, fondata qui nella seconda metà del XII secolo accanto alla chiesa di Santa Maria sotto la Catena; il palazzo attuale ricalca ancora la pianta del suo ospedale romanico a tre ali.</p>\n<h2>L'edificio barocco</h2>\n<p>La ricostruzione fu decisa dal gran priore Carlo Leopoldo conte di Herberstein. I progetti furono preparati dal costruttore milanese Giuseppe Bartolomeo Scotti; il palazzo fu edificato nel 1726–1727 e completato sotto il gran priore Gundaker Poppo conte di Dietrichstein: una residenza a un piano su quattro ali, con abbaini a finestre ovali.</p>\n<p>Entrambi i portali, sui lati sud e ovest, provengono dalla bottega di Matthias Bernhard Braun e recano lo stemma del gran priore Dietrichstein. La stessa bottega decorò il monumentale scalone a tre rampe con putti reggi-lume, uno dei più belli delle terre ceche. Gli interni conservano soffitti a stucco, porte intarsiate, pavimenti in parquet, camini di marmo e stufe in maiolica della manifattura Dietrichstein. All'angolo su piazza Velkopřevorské náměstí si trova un paracarro alto 190 cm, probabilmente il più grande di Praga.</p>\n<p>Intorno al 1730 il gran priore Dietrichstein commissionò alla bottega bruxellese di Peter van den Hecke sei arazzi per il salone principale, oggi Sala dei Cavalieri. Portati via durante l'occupazione nazista, quattro di essi furono ritrovati dopo la guerra e si trovano oggi, in prestito permanente del Gran Priorato di Boemia, nella sede dell'Ordine a Roma.</p>\n<h2>Nel XX secolo</h2>\n<p>Dopo la riforma agraria l'Ordine affittò il palazzo dal 1919 al 1931 alla legazione del Regno dei Serbi, Croati e Sloveni (poi Jugoslavia). Durante l'occupazione il bene fu trasferito al Reich tedesco e nel 1949 i comunisti si impadronirono del palazzo; dal 1950 vi ebbe sede il Museo della Musica del Museo Nazionale. Nel 1984 vi furono girate scene del film <em>Amadeus</em> di Miloš Forman.</p>\n<p>In base alla legge n. 338/1991 il palazzo fu restituito all'Ordine; il museo lo lasciò nel 2003. Durante l'alluvione dell'agosto 2002 l'acqua invase le cantine e il pianterreno. Nel 2019–2022 la struttura del tetto, attaccata dal fungo della carie secca, è stata restaurata e la copertura rifatta.</p>\n<h2>Oggi</h2>\n<p>Il palazzo è al servizio dell'Ordine e ospita conferenze pubbliche e convegni. Il suo giardino si trova dietro il cosiddetto Muro di Lennon. Le sale di rappresentanza possono essere prese in affitto; vedere <a href=\"/it/spazi/\">Spazi</a> per le sale e <a href=\"/it/contatti/\">Contatti</a> per gli organizzatori.</p>\n<p class=\"small\">Fonte: Milan M. Buben, <em>Chrám Panny Marie pod řetězem a Velkopřevorský palác. Dějiny a průvodce</em> (La chiesa di Santa Maria sotto la Catena e il Palazzo del Gran Priore: storia e guida), Praga 2026.</p>"
   },
   "ke-stazeni": {
    "url": "/it/download/",
@@ -37,12 +44,6 @@
    "title": "Esterni e giardino",
    "aka": "",
    "lead": "Il palazzo con il cortile e il giardino dietro il muro di Lennon, dove Ludwig van Beethoven compose sotto il grande platano durante il suo soggiorno a Praga. Al giardino si accede dal muro di Lennon; tre porte vi si aprono dalla sala terrena."
-  },
-  "kocarovna": {
-   "url": "/it/spazi/rimessa-delle-carrozze/",
-   "title": "Rimessa delle carrozze",
-   "aka": "Salone turco",
-   "lead": "Una sala a volta al piano terra del palazzo. Al piano terra si trovano anche la sala terrena, aperta sul giardino, e un locale di appoggio per il catering."
   },
   "schodiste": {
    "url": "/it/spazi/scalone/",
@@ -77,7 +78,7 @@
  },
  "plans": {
   "zahrada": "Pianta del giardino",
-  "prizemi": "Pianta del piano terra – sala terrena e Rimessa delle carrozze (Salone turco)",
+  "prizemi": "Pianta del piano terra – sala terrena",
   "patro": "Pianta del primo piano",
   "salony": "Pianta del primo piano – Sala dei Cavalieri (Sala del Gran Priore), Salone rosso (Salottino rosa) e Sala da pranzo del Gran Priore"
  },

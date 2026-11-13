@@ -399,6 +399,11 @@ def render_room(key, lang):
     return page(key, lang, inner, lead=r["lead"], image=f"/media/{cover(key)}-1600.webp")
 
 
+def render_history(lang):
+    """The palace's history, the same text as on maltezskyrad.cz (content/<lang>.json, pages.historie.body)."""
+    return page("historie", lang, f'<div class="prose">{L[lang]["pages"]["historie"]["body"]}</div>')
+
+
 def render_downloads(lang):
     t, u = L[lang], L[lang]["ui"]
     items = "".join(f"""<li>
@@ -443,7 +448,7 @@ def build():
     shutil.copytree(STATIC, DIST)
     urls = []
     for lang in LANGS:
-        pages = {"home": render_home(lang), "prostory": render_spaces(lang), "ke-stazeni": render_downloads(lang), "kontakt": render_contact(lang)}
+        pages = {"home": render_home(lang), "prostory": render_spaces(lang), "historie": render_history(lang), "ke-stazeni": render_downloads(lang), "kontakt": render_contact(lang)}
         pages |= {k: render_room(k, lang) for k in ROOMS}
         for k, h in pages.items():
             urls.append(url_of(k, lang))

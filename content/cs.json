@@ -1,16 +1,16 @@
 {
  "langName": "Čeština",
  "locale": "cs_CZ",
- "nav": ["home", "prostory", "ke-stazeni", "kontakt"],
+ "nav": ["home", "prostory", "historie", "ke-stazeni", "kontakt"],
  "pages": {
   "home": {"url": "/", "title": "Velkopřevorský palác", "description": "Pronájem reprezentačních prostor a zahrady Velkopřevorského paláce na Malé Straně pro konference, recepce, koncerty a svatby."},
   "prostory": {"url": "/prostory/", "title": "Prostory", "description": "Sály, salony a zahrada Velkopřevorského paláce k pronájmu: fotografie, kapacity a půdorysy.", "lead": "Reprezentační prostory paláce a zahradu za Lennonovou zdí pronajímáme pro konference, recepce, koncerty i svatby. Přízemí i první patro mají vlastní přípravnu pro catering."},
+  "historie": {"url": "/historie/", "title": "Historie paláce", "description": "Barokní Velkopřevorský palác na Malé Straně, sídlo Českého velkopřevorství Maltézského řádu: dějiny, stavba a dnešní využití.", "body": "<p>Velkopřevorský palác na Malé Straně je sídlem Českého velkopřevorství. Stojí na místě johanitské komendy, která zde vznikla ve druhé polovině 12. století vedle kostela Panny Marie pod řetězem; palác dodnes kopíruje půdorys jejího románského trojkřídlého špitálu.</p>\n<h2>Barokní stavba</h2>\n<p>O přestavbě rozhodl velkopřevor Karel Leopold hrabě z Herbersteinu. Plány připravil milánský stavitel Giuseppe Bartolomeo Scotti. Palác byl postaven v letech 1726–1727 a dokončen za velkopřevora Gundakera Poppa hraběte z Dietrichsteina. Vznikla jednopatrová čtyřkřídlá rezidence s vikýři s oválnými okny.</p>\n<p>Oba portály, na jižní a západní straně, pocházejí z dílny Matyáše Bernarda Brauna a nesou znak velkopřevora Dietrichsteina. Z téže dílny je i výzdoba monumentálního trojramenného schodiště s putti nesoucími světla, jednoho z nejkrásnějších v českých zemích. Interiéry si zachovaly štukové stropy, intarzované dveře, parketové podlahy, mramorové krby a kachlová kamna z dietrichsteinské manufaktury. Na nároží u Velkopřevorského náměstí stojí patník vysoký 190 cm, patrně největší v Praze.</p>\n<p>Pro hlavní sál, dnes Rytířský, objednal velkopřevor Dietrichstein kolem roku 1730 šest tapiserií z bruselské dílny Petra van den Hecka. Za nacistické okupace byly odvezeny; čtyři z nich se po válce našly a jako trvalá zápůjčka Českého velkopřevorství jsou dnes v sídle Řádu v Římě.</p>\n<h2>Ve 20. století</h2>\n<p>Po pozemkové reformě pronajal Řád palác v letech 1919–1931 vyslanectví Království Srbů, Chorvatů a Slovinců (později Jugoslávie). Za okupace byl majetek převeden na Německou říši a v roce 1949 palác zabrali komunisté; od roku 1950 v něm sídlilo Muzeum hudby Národního muzea. V roce 1984 se zde natáčely scény filmu Miloše Formana <em>Amadeus</em>.</p>\n<p>Na základě zákona č. 338/1991 Sb. byl palác Řádu vrácen, muzeum se vystěhovalo v roce 2003. Při povodních v srpnu 2002 voda zaplavila sklepy a přízemí. V letech 2019–2022 byl obnoven krov napadený dřevomorkou a byla položena nová krytina.</p>\n<h2>Dnes</h2>\n<p>Palác slouží Řádu a konají se v něm přednášky pro veřejnost a konference. K paláci patří zahrada za takzvanou Lennonovou zdí. Reprezentační prostory lze pronajmout; přehled najdete v části <a href=\"/prostory/\">Prostory</a>, kontakt pro pořadatele v části <a href=\"/kontakt/\">Kontakt</a>.</p>\n<p class=\"small\">Zdroj: Milan M. Buben, <em>Chrám Panny Marie pod řetězem a Velkopřevorský palác. Dějiny a průvodce</em>, Praha 2026.</p>"},
   "ke-stazeni": {"url": "/ke-stazeni/", "title": "Ke stažení pro pořadatele akcí", "description": "Půdorysy Velkopřevorského paláce a nákres zahrady ke stažení v PDF pro pořadatele akcí.", "lead": "Půdorysy a nákres zahrady pro přípravu akce."},
   "kontakt": {"url": "/kontakt/", "title": "Kontakt", "description": "Kontakt pro pronájem prostor Velkopřevorského paláce na Malé Straně v Praze."}
  },
  "rooms": {
   "exterier": {"url": "/prostory/exterier-a-zahrada/", "title": "Exteriér a zahrada", "aka": "", "lead": "Palác s nádvořím a zahrada za Lennonovou zdí, kde pod mohutným platanem během svého pobytu v Praze komponoval Ludwig van Beethoven. Do zahrady se vchází od Lennonovy zdi a ze sally terreny ji otevírají tři východy."},
-  "kocarovna": {"url": "/prostory/kocarovna/", "title": "Kočárovna", "aka": "Turecký salon", "lead": "Klenutý sál v přízemí paláce. V přízemí je také sala terrena s východy do zahrady a přípravna pro catering."},
   "schodiste": {"url": "/prostory/schodiste/", "title": "Schodiště", "aka": "", "lead": "Monumentální trojramenné schodiště paláce se sochami puttů nesoucích světla, z dílny Matyáše Bernarda Brauna."},
   "vez": {"url": "/prostory/vez/", "title": "Věž", "aka": "", "lead": "Gotická místnost ve věži s křížovou klenbou a arkýřovým oknem."},
   "jidelna": {"url": "/prostory/velkoprevorska-jidelna/", "title": "Velkopřevorská jídelna", "aka": "", "lead": "Menší jídelna v prvním patře pro posezení u stolu."},
@@ -19,7 +19,7 @@
  },
  "plans": {
   "zahrada": "Nákres zahrady",
-  "prizemi": "Půdorys přízemí – sala terrena a Kočárovna (Turecký salon)",
+  "prizemi": "Půdorys přízemí – sala terrena",
   "patro": "Půdorys prvního patra",
   "salony": "Půdorys prvního patra – Rytířský sál (Velkopřevorský sál), Červený salón (Růžový salonek) a Velkopřevorská jídelna"
  },
